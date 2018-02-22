@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sanjeevkumar.tricktest.Scoreactivity"
+    android:background="@drawable/blackboard">
+
+
+    <TextView
+        android:id="@+id/scoreview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/scoreviewText"
+        android:layout_alignBottom="@+id/scoreviewText"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="19dp"
+        android:fontFamily="@font/aclonica"
+        android:text=" TOTAL SCORE: "
+        android:textColor="@color/btncolor"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:paddingRight="10dp"
+        android:id="@+id/scoreviewText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textSize="35dp"
+        android:layout_toRightOf="@+id/scoreview"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/markedviewText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/aclonica"
+        android:paddingLeft="7dp"
+        android:text="ANS MARKED  :"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/markedview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBottom="@+id/markedviewText"
+        android:layout_alignStart="@+id/missviewtext"
+
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/missview"
+        android:layout_marginTop="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:layout_below="@+id/markedviewText"
+        android:fontFamily="@font/aclonica"
+        android:text="ANS MISSED   :"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/missviewtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView3"
+        android:layout_below="@+id/markedview"
+
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/haha"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/gifImageView2" />
+
+    <TextView
+
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:layout_below="@+id/missview"
+        android:layout_marginTop="7dp"
+        android:fontFamily="@font/aclonica"
+        android:text="ANS WRONG   :"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView5"
+        android:layout_below="@+id/missviewtext"
+
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="11dp"
+        android:text="ANS CORRECT:"
+        android:fontFamily="@font/aclonica"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_toEndOf="@+id/gifImageView2"
+
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

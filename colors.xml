@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="alizarin">#f39c12</color>
+    <color name="sunflower">#f1c40f</color>
+    <color name="buttoncolor">#a2c009</color>
+    <color name="btncolor">#2ecc71</color>
+    <color name="sciencecolor">#d35400</color>
+    <color name="topcolor">#366b45</color>
+</resources>
